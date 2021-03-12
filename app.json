@@ -1,0 +1,12 @@
+{
+  "name": "TravelSaver",
+  "displayName": "TravelSaver",
+  "expo": {
+    "name": "TravelSaver",
+    "slug": "TravelSaver",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
