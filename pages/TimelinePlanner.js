@@ -2,10 +2,10 @@ import 'react-native-gesture-handler';
 import React, { Component } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { StyleSheet, Text, View, Image, TouchableOpacity, Button, TextInput } from 'react-native';
+import { StyleSheet, Text, View, Image, TouchableOpacity, ScrollView} from 'react-native';
 import { Searchbar } from 'react-native-paper';
 
-export const HomePage = ({ navigation }) => {
+export const TimelinePlanner = ({ navigation }) => {
     return (
         <View
             style={styles.timelineplannerView}>
@@ -250,9 +250,9 @@ export const HomePage = ({ navigation }) => {
                                     flexDirection: "row",
                                     alignItems: "flex-start",
                                 }}>
-                                <TouchableOpacity
+                                {/* <TouchableOpacity
                                     onPress={this.onRectanglePressed}
-                                    style={styles.rectangleButton}/>
+                                    style={styles.rectangleButton}/> */}
                                 <View
                                     style={{
                                         flex: 1,
@@ -292,12 +292,12 @@ export const HomePage = ({ navigation }) => {
                                         marginTop: 1,
                                         alignItems: "flex-start",
                                     }}>
-                                    <TouchableOpacity
+                                    {/* <TouchableOpacity
                                         onPress={this.onRectangleTwoPressed}
                                         style={styles.rectangleTwoButton}/>
                                     <TouchableOpacity
                                         onPress={this.onRectangleThreePressed}
-                                        style={styles.rectangleThreeButton}/>
+                                        style={styles.rectangleThreeButton}/> */}
                                 </View>
                                 <View
                                     pointerEvents="box-none"
@@ -342,18 +342,18 @@ export const HomePage = ({ navigation }) => {
                                 </View>
                             </View>
                         </View>
-                        <TouchableOpacity
+                        {/* <TouchableOpacity
                             onPress={this.onShapePressed}
-                            style={styles.shapeButton}/>
+                            style={styles.shapeButton}/> */}
                         <Image
                             source={require("../assets/images/shape-61.png")}
                             style={styles.shapeTwoImage}/>
-                        <TouchableOpacity
+                        {/* <TouchableOpacity
                             onPress={this.onShapeTwoPressed}
                             style={styles.shapeTwoButton}/>
                         <TouchableOpacity
                             onPress={this.onShapeThreePressed}
-                            style={styles.shapeThreeButton}/>
+                            style={styles.shapeThreeButton}/> */}
                         <View
                             pointerEvents="box-none"
                             style={{

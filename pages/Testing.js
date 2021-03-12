@@ -5,7 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { StyleSheet, Text, View, Image, TouchableOpacity, Button, TextInput } from 'react-native';
 import { Searchbar } from 'react-native-paper';
 
-export const HomePage = ({ navigation }) => {
+export const Testing = ({ navigation }) => {
     return (
         <View
             style={styles.testingView}>

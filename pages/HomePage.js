@@ -596,9 +596,7 @@ export const HomePage = ({ navigation }) => {
 							style={{
 								flex: 1,
 							}}/>
-						<TouchableOpacity
-							onPress={this.onShapePressed}
-							style={styles.shapeButton}/>
+
 					</View>
 				</View>
 				<View
@@ -631,8 +629,13 @@ export const HomePage = ({ navigation }) => {
 							source={require("../assets/images/group-29.png")}
 							style={styles.groupFiveImage}/>
 						<TouchableOpacity
-							onPress={this.onRectanglePressed}
-							style={styles.rectangleButton}/>
+							onPress={() =>
+								navigation.navigate('TimelinePlanner')}
+							style={styles.rectangleButton}>
+							<Image
+								source={require("../assets/images/shape-64.png")}
+								style={styles.rectangleButtonImage}/>
+						</TouchableOpacity>
 					</View>
 				</View>
 			</View>
@@ -650,11 +653,21 @@ export const HomePage = ({ navigation }) => {
 				alignItems: "flex-start",
 			}}>
 			<TouchableOpacity
-				onPress={this.onShapeTwoPressed}
-				style={styles.shapeTwoButton}/>
+				onPress={() =>
+					navigation.navigate('TimelinePlanner')}
+				style={styles.shapeTwoButton}>
+				<Image
+					source={require("../assets/images/shape-121.png")}
+					style={styles.shapeTwoButtonImage}/>
+			</TouchableOpacity>
 			<TouchableOpacity
-				onPress={this.onShapeThreePressed}
-				style={styles.shapeThreeButton}/>
+				onPress={() =>
+					navigation.navigate('QuarantineDetails')}
+				style={styles.shapeThreeButton}>
+				<Image
+					source={require("../assets/images/shape-116.png")}
+					style={styles.shapeThreeButton}/>
+			</TouchableOpacity>
 			<Image
 				source={require("../assets/images/shape-112.png")}
 				style={styles.shapeFortyTwoImage}/>

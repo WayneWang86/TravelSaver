@@ -5,7 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { StyleSheet, Text, View, Image, TouchableOpacity, Button, TextInput } from 'react-native';
 import { Searchbar } from 'react-native-paper';
 
-export const HomePage = ({ navigation }) => {
+export const Quarantine = ({ navigation }) => {
     return (
     <View
         style={styles.quarantineView}>
@@ -32,9 +32,9 @@ export const HomePage = ({ navigation }) => {
                     justifyContent: "flex-end",
                     alignItems: "flex-start",
                 }}>
-                <TouchableOpacity
+                {/* <TouchableOpacity
                     onPress={this.onShapePressed}
-                    style={styles.shapeTwoButton}/>
+                    style={styles.shapeTwoButton}/> */}
                 <Image
                     source={require("../assets/images/shape-116.png")}
                     style={styles.shapeSevenImage}/>
@@ -138,9 +138,9 @@ export const HomePage = ({ navigation }) => {
                     }}>
                     <View
                         style={styles.pathTwoView}/>
-                    <TouchableOpacity
+                    {/* <TouchableOpacity
                         onPress={this.onShapeTwoPressed}
-                        style={styles.shapeButton}/>
+                        style={styles.shapeButton}/> */}
                 </View>
                 <View
                     style={styles.pathThreeView}/>

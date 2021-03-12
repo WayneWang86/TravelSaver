@@ -5,7 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { StyleSheet, Text, View, Image, TouchableOpacity, Button, TextInput } from 'react-native';
 import { Searchbar } from 'react-native-paper';
 
-export const HomePage = ({ navigation }) => {
+export const TimelineTravel = ({ navigation }) => {
     return (
         <View
         style={styles.timelinetravelView}>
@@ -539,9 +539,9 @@ export const HomePage = ({ navigation }) => {
                         source={require("../assets/images/shape-56.png")}
                         style={styles.shapeThirtyFiveImage}/>
                 </View>
-                <TouchableOpacity
+                {/* <TouchableOpacity
                     onPress={this.onRectanglePressed}
-                    style={styles.rectangleButton}/>
+                    style={styles.rectangleButton}/> */}
                 <View
                     style={{
                         flex: 1,
@@ -583,9 +583,9 @@ export const HomePage = ({ navigation }) => {
                 <Image
                     source={require("../assets/images/shape.png")}
                     style={styles.shapeThirtySixImage}/>
-                <TouchableOpacity
+                {/* <TouchableOpacity
                     onPress={this.onRectangleTwoPressed}
-                    style={styles.rectangleTwoButton}/>
+                    style={styles.rectangleTwoButton}/> */}
                 <View
                     style={{
                         flex: 1,
@@ -690,9 +690,9 @@ export const HomePage = ({ navigation }) => {
                         source={require("../assets/images/shape-7.png")}
                         style={styles.shapeFortyTwoImage}/>
                 </View>
-                <TouchableOpacity
+                {/* <TouchableOpacity
                     onPress={this.onRectangleThreePressed}
-                    style={styles.rectangleThreeButton}/>
+                    style={styles.rectangleThreeButton}/> */}
                 <View
                     style={{
                         flex: 1,
@@ -791,18 +791,18 @@ export const HomePage = ({ navigation }) => {
         <Image
             source={require("../assets/images/shape-62.png")}
             style={styles.shapeTwentyNineImage}/>
-        <TouchableOpacity
+        {/* <TouchableOpacity
             onPress={this.onShapePressed}
-            style={styles.shapeButton}/>
+            style={styles.shapeButton}/> */}
         <Image
             source={require("../assets/images/shape-119.png")}
             style={styles.shapeThirtyOneImage}/>
-        <TouchableOpacity
+        {/* <TouchableOpacity
             onPress={this.onShapeTwoPressed}
             style={styles.shapeTwoButton}/>
         <TouchableOpacity
             onPress={this.onShapeThreePressed}
-            style={styles.shapeThreeButton}/>
+            style={styles.shapeThreeButton}/> */}
         <Image
             source={require("../assets/images/path-10.png")}
             style={styles.pathTwentyEightImage}/>
