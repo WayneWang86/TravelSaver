@@ -46,8 +46,8 @@ function App() {
 
     { /* footer section */}
     <footer>
-        <p>This app is created by UW students for INFO 340.</p>
-        <p>&copy; 2020 Siena, Tiffany, Wayne, and Kristina.</p>
+        <p>This app is created by UW students for INFO 490/491.</p>
+        <p>&copy; 2021 Han Chen, Wayne Wang, Yixuan Wen, Harry Zhan.</p>
     </footer>
 </div>
   );
