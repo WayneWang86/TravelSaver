@@ -5,8 +5,9 @@ import { Home } from './pages/home';
 import { Timeline } from './pages/timeline';
 import { Todo } from './pages/todo';
 import { Testing } from './pages/testing';
-import { Quarentine } from './pages/quarentineInfo';
+import QuarantineInfo from './pages/quarentineInfo';
 import './App.css';
+import QuarantineDetail from './pages/quarantinedetail';
 
 function App() {
   return (
@@ -39,8 +40,9 @@ function App() {
         <Route path="/timeline" component={Timeline}></Route>
         <Route path="/todo" component={Todo}></Route>
         <Route path="/testing" component={Testing}></Route>
-        <Route path="/quarentine" component={Quarentine}></Route>
-        <Redirect to="/" />
+        <Route path="/quarantine" component={QuarantineInfo}></Route>
+        <Route path="/quarantinedetail" component={QuarantineDetail}></Route>
+        {/* <Redirect to="/" /> */}
         </Switch>
     </main>
 
@@ -59,7 +61,7 @@ function AboutNav() {
     <nav>
       <ul>
         <li><NavLink to="/timeline" activeClassName="activeLink">Planner</NavLink></li>
-        <li><NavLink to="/quarentine" activeClassName="activeLink">Information Update (Live)</NavLink></li>
+        <li><NavLink to="/quarantine" activeClassName="activeLink">Information Update (Live)</NavLink></li>
       </ul>
     </nav>
   );
