@@ -63,7 +63,6 @@ class QuarantineInfo extends React.Component {
     return (
       <nav>
         <ul>
-          
           <li><NavLink to="/quarantinedetail" activeClassName="activeLink">Quarantine policy in details.</NavLink></li>
         </ul>
       </nav>

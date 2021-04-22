@@ -62,11 +62,12 @@ function App() {
 function AboutNav() {
   return (
     <nav>
+      <h1 className="logo"> <NavLink to="/" class="activeLink">TravelSaver</NavLink></h1>
       <ul>
-        <li class="container container1"><NavLink to="/timeline" class="activeLink">Planner</NavLink></li>
+        <li class="container container/1"><NavLink to="/timeline" class="activeLink">Planner</NavLink></li>
         <li class="container container2"><NavLink to="/quarantine" class="activeLink">Information Update (Live)</NavLink></li>
-        <li class="container container3"><NavLink to="/testing" class="activeLink">Testing</NavLink></li>
-        <li class="container container4"><NavLink to="/todo" class="activeLink">To-Do List Before Trip</NavLink></li>
+        {/* <li class="container container3"><NavLink to="/testing" class="activeLink">Testing</NavLink></li>
+        <li class="container container4"><NavLink to="/todo" class="activeLink">To-Do List Before Trip</NavLink></li> */}
       </ul>
     </nav>
   );
