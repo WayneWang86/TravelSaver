@@ -48,8 +48,11 @@ function App() {
 
     { /* footer section */}
     <footer>
-        <p>This app is created by UW students for INFO 340.</p>
-        <p>&copy; 2020 Siena, Tiffany, Wayne, and Kristina.</p>
+        <p>This app is created by UW students from INFO 491.</p>
+        <p>&copy; Travel Saver. By Wayne, Chris, Han, and Harry</p>
+                                <address>
+                                    Report Inapporiate Content: <a href="report@fs.com">report@TravelSaver.com</a>, or at <a href="tel:800-888-888">(800) 888-888</a>.
+                                </address>
     </footer>
 </div>
   );
@@ -60,11 +63,15 @@ function AboutNav() {
   return (
     <nav>
       <ul>
-        <li><NavLink to="/timeline" activeClassName="activeLink">Planner</NavLink></li>
-        <li><NavLink to="/quarantine" activeClassName="activeLink">Information Update (Live)</NavLink></li>
+        <li class="container container1"><NavLink to="/timeline" class="activeLink">Planner</NavLink></li>
+        <li class="container container2"><NavLink to="/quarantine" class="activeLink">Information Update (Live)</NavLink></li>
+        <li class="container container3"><NavLink to="/testing" class="activeLink">Testing</NavLink></li>
+        <li class="container container4"><NavLink to="/todo" class="activeLink">To-Do List Before Trip</NavLink></li>
       </ul>
     </nav>
   );
 }
+
+
 
 export default App;

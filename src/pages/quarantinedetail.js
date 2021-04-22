@@ -24,7 +24,7 @@ class QuarantineDetail extends React.Component {
   
         return (
           <div>
-                <h1>Qurantine Policy</h1>
+                <h1>Quaranitne Policy</h1>
                 <div class="row">
                   <div class="column">
                     <h2>Requirement</h2>
