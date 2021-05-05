@@ -1,0 +1,80 @@
+.title{
+    font-size: 50px;
+    color: #6567FF;
+    margin-bottom: 3rem;
+}
+
+.travelInfo h3 {
+    margin-right: 3rem;
+}
+
+.location {
+    font-style: italic;
+    color: black;
+    font-weight: 300%;
+}
+
+.timeline {
+    color: #6567FF;
+    justify-content: center;
+}
+
+
+.travelInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    flex-direction: column;
+    justify-content: center;
+     display:flex;
+     width: 15rem;
+     background-color: white;
+     margin: .5rem;
+     border-radius: 10px;
+     box-shadow: 0 1px 3px rgba(0,0,0,0.16),0 1px 3px rgba(0,0,0,0.23);
+     text-align: center;
+}
+
+.title-n-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.timelineDetail div {
+    display: flex;
+}
+
+.timelineDetail ol {
+    margin: 0rem 0rem 3rem 0rem;
+    display: inherit;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.timelineDetail h3 {
+    color: black;
+}
+
+.box {
+    margin-right: 3rem;
+}
+
+.prep .box {
+    background-color: #A28CF8;
+}
+
+.test .box {
+    background-color: #FEC62E;
+}
+
+.flight .box {
+    background-color: #5759FB;
+}
+
+.quar .box {
+    background-color: #2CBDFB;
+}
