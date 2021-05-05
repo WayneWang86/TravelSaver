@@ -36,3 +36,16 @@ The rules of return can be changed and adjusted at anytime by the Chinese author
 * TimeLine: Based on users' travel plan or flight information to generate a estimated timeline for multiple stages during the travel -- Preparation stage, COVID testing and documenting stage, flight stage and quarantine stage.
 * To-Do List: A checklist version of TimeLine page, esay to manage and keep track of progress. Mobile friendly.
 * Quarantine Policy Page: Provide regularly updated quarantine policies for entering China as well as quarantine polices for the final destination.
+
+## Development Instruction
+
+### Environment
+* This project is a React-based project.
+* `npm install`: Install dependencies required to run this project.
+* `npm start`: Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### Components
+All components can be found in the directory `src/pages`
+
+### Images & Resources
+All images and resources can be found in directory `src/res`
