@@ -24,7 +24,10 @@ class QuarantineDetail extends React.Component {
   
         return (
           <div>
-                <h1>Quaranitne Policy</h1>
+                <div className="title-text">
+                  <h1>Quaranitne Policy</h1>  
+                  <h2>Latest Update : 16:00 GMT+8, 13 MAY 2021</h2>
+                </div>
                 <div class="row">
                   <div class="column">
                     <h2>Requirement</h2>
@@ -67,8 +70,8 @@ If your test result is positive, or if you develop symptoms during your quaranti
                       
                     </ul>
                   </div>
+                  <h3><a href="https://www.china-airlines.com/nz/en/discover/news/travel-advisory/Immigration-Information">Source: China’s Entry Restrictions and Quarantine Requirements</a></h3>
                 </div>
-                
           </div>
         )
       }

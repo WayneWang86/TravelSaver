@@ -2,14 +2,33 @@ h1, h2 {
     color:#6567FF;
 }
 
+.title-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-text h1 {
+  font-size: 50px;
+}
+
 .column {
-    float: left;
-    width: 50%;
-  }
+  float: left;
+  width: 50%;
+}
   
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  margin-bottom: 5rem;
+}
+
+.column {
+  margin-bottom: 1.5rem;
+}

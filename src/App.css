@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #6567FF;
+  color: #6567FF;;
 }
 
 nav {
@@ -128,3 +128,16 @@ footer {
   text-decoration: none;
 }
     
+
+NavLink {
+  color: #6567FF;
+}
+
+a {
+  color: #6567FF;
+  text-decoration: none;
+}
+
+header {
+  margin-bottom: 2rem;
+}

@@ -19,7 +19,6 @@
     justify-content: center;
 }
 
-
 .travelInfo {
     display: flex;
     flex-direction: row;
@@ -41,7 +40,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
+.timelineDetail {
+    padding: 1% 0;
 }
 
 .timelineDetail div {
@@ -52,7 +54,7 @@
     margin: 0rem 0rem 3rem 0rem;
     display: inherit;
     flex-direction: column;
-    justify-content: center;
+    padding: 0;
 }
 
 .timelineDetail h3 {
@@ -60,21 +62,89 @@
 }
 
 .box {
-    margin-right: 3rem;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    width: 15rem;
 }
 
 .prep .box {
-    background-color: #A28CF8;
+    background-color: #D9CFFF;
 }
 
 .test .box {
-    background-color: #FEC62E;
+    background-color: #B2A0F8;
 }
 
 .flight .box {
-    background-color: #5759FB;
+    background-color: #896AFF;
 }
 
 .quar .box {
-    background-color: #2CBDFB;
+    background-color: #624DB5;
 }
+
+.time-stamp {
+    padding: 0;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.timeline-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    color: #4C4B4A;
+    font-size: 0.8rem;
+}
+
+hr {
+    transform: rotate(90deg);
+    padding: 0;
+    margin: 0 35% 0 0.5%;
+    height: 13px;
+    color: black;
+    border-width: 2px;
+    border-style: solid;
+    position: relative;
+}
+
+.date-box {
+    display: flex;
+    flex-direction: row;
+    margin: 0 1% 0 0.4%;
+    padding: 0;
+    border: none;
+}
+
+.quarantine-date {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.4%;
+    margin-right: 1%;
+    justify-content: space-between;
+}
+
+.timeline-body li {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title-n-option, .timeline-body {
+    margin-left: 3rem;
+}
+
+.todo-items li {
+    font-size: 25px;
+}
+
+.timeline-body a {
+    text-decoration: underline;
+}
+
