@@ -153,3 +153,8 @@ hr {
     text-decoration: underline;
 }
 
+.todo-items input:checked + label {
+    text-decoration: line-through;
+    font-weight: normal;
+    color: gray;
+}
