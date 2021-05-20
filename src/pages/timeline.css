@@ -63,16 +63,19 @@
 
 .box {
     margin-right: 2rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
     width: 15rem;
 }
 
 .prep .box {
     background-color: #D9CFFF;
+    margin-left: 2.6rem;
+    width: 14.9rem
 }
 
 .test .box {
     background-color: #B2A0F8;
+    width: 15.2rem;
 }
 
 .flight .box {
@@ -100,7 +103,9 @@
     flex-direction: row;
     margin: 0;
     color: #4C4B4A;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    font-style: italic;
+    font-weight: bold;
 }
 
 hr {
