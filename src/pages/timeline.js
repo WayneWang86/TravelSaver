@@ -124,7 +124,7 @@ function Timeline() {
                             <li>- Receive Nucleic acid and IgM anti-body tests at airport.</li>
                             <li>- Assign to groups and wait for quarantine hotel assignment.</li>
                             <li>- Transport to quarantine hotel.</li>
-                            <li>- <NavLink to="/todo" class="activeLink">Quarantine policy and Hotel quarantine roles.</NavLink></li>
+                            <li>- <NavLink to="/quarantinedetail" class="activeLink">Quarantine policy and Hotel quarantine roles.</NavLink></li>
                             <li>- Arrive at quarantine hotel.</li>
                             <li>- Report entry information to community staff and local police station.</li>
                             <li>- Take Nucleic acid test at the 12th day of quarantine.</li>
