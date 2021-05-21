@@ -32,3 +32,13 @@ h1, h2 {
 .column {
   margin-bottom: 1.5rem;
 }
+
+@media (max-width: 500px) {
+  .title-text h1 {
+    display: none;
+  }
+
+  .title-text h2 {
+    font-size: 12px;
+  }
+}

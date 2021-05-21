@@ -25,7 +25,7 @@ table {
     background-image: url(../res/departure.png);
     width: 50px;
     height: 50px;
-    background-size: contain;
+    background-size: cover;
     border-style: none;
     padding: 0.2rem;
 }
@@ -34,7 +34,7 @@ table {
     background-image: url(../res/arrival.png);
     width: 50px;
     height: 50px;
-    background-size: contain;
+    background-size: cover;
     border-style: none;
     padding: 0.2rem;
 }
@@ -43,7 +43,7 @@ table {
     background-image: url(../res/calendar\ with\ dates.png);
     width: 50px;
     height: 50px;
-    background-size: contain;
+    background-size: cover;
     border-style: none;
     padding: 0.2rem;
 }
@@ -129,7 +129,7 @@ select {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 475px) {
     nav h1 {
         font-size: 1.5rem;
     }
