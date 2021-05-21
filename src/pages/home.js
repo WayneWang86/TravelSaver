@@ -2,12 +2,13 @@ import React, {Component, useState} from 'react'
 import { Route, NavLink, Switch, Redirect } from 'react-router-dom'
 import './home.css' 
 import DatePicker from "react-datepicker";
+import { addDays } from 'date-fns';
 
 import "react-datepicker/dist/react-datepicker.css";
 
 function Home() {
 
-    const [startDate, setStartDate] = useState(new Date());
+    const [startDate, setStartDate] = useState(addDays(new Date(), 30));
     const [departure, setDeparture] = useState('Seattle');
     const [destination, setDestination] = useState('Shanghai');
     const [infoValue, setInfoValue] = useState('');
@@ -87,7 +88,7 @@ function Home() {
                     <th className="form-group">
                         <div className="calendar-logo"></div>
                         {/* <DatePicker selected={startDate} minDate={new Date()} onChange={date => setStartDate(date)} onSelect={date => handleChangeDate(date)}/> */}
-                        <DatePicker selected={startDate} minDate={new Date()} onChange={date => handleChangeDate(date)}/>
+                        <DatePicker selected={startDate} minDate={addDays(new Date(), 30)} onChange={date => handleChangeDate(date)}/>
                     </th>
                     <th className="submit">
                         <button onClick={handleSaveInfo()}><NavLink to="/timeline" class="activeLink">Make a plan</NavLink></button>

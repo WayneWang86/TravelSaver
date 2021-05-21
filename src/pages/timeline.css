@@ -50,7 +50,8 @@
     display: flex;
 }
 
-.timelineDetail ol {
+/* .timelineDetail ol { */
+.actions {
     margin: 0rem 0rem 3rem 0rem;
     display: inherit;
     flex-direction: column;
@@ -157,4 +158,64 @@ hr {
     text-decoration: line-through;
     font-weight: normal;
     color: gray;
+}
+
+.box ol {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .title {
+        display: none;
+    }
+
+    .travelInfo h3 {
+        font-size: 1rem;
+    }
+
+    .actions {
+        display: none;
+    }
+
+    .box h3 {
+        display: none;
+    }
+
+    .title-n-option {
+        margin-left: 0;
+    }
+
+    .timeline-body {
+        margin-left: 0;
+        margin-bottom: 5rem;
+    }
+
+    .box ol {
+        margin: 0rem 0rem 3rem 0rem;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        color: black;
+    }
+
+    .box li {
+        word-break: break-all;
+    }
+
+    .time-stamp {
+        display: none;
+    }
+
+    .date-box {
+        margin: 0;
+    }
+
+    .todo-items {
+        display: none;
+    }
+
+    .box {
+        margin-right: 0;
+        width: 100%;
+    }
 }

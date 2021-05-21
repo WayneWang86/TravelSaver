@@ -25,7 +25,7 @@ class QuarantineDetail extends React.Component {
         return (
           <div>
                 <div className="title-text">
-                  <h1>Quaranitne Policy</h1>  
+                  <h1>Quarantine Policy</h1>  
                   <h2>Latest Update : 16:00 GMT+8, 13 MAY 2021</h2>
                 </div>
                 <div class="row">
@@ -61,7 +61,7 @@ GROUP 3: Travelers with residences without individual entrance or individual AC 
 If your test result is positive, or if you develop symptoms during your quarantine, you will be transferred to a COVID-19 specialist hospital unit.</li>
                       
                     </ul>
-                    <h2>After Quaranitne</h2>
+                    <h2>After Quarantine</h2>
                     <ul>
                       <li>If you do not develop any COVID-19 symptoms during your quarantine period, when the 14 days are finished, you will receive a release certificate. You may be subject to complete a final NAT before your release certificate is issued.</li>
                       <li> For those arriving after July 27, 2020 and under the new 7 days at hotel plus 7 days at home quarantine, a final NAT test is required before release.</li>
