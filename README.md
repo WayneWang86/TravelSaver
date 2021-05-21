@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# TravelSaver
+A web application to assist overseas Chinese citizens travel back to China during the pandemic.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Summary
 
-## Available Scripts
+### Team Member
+Han Chen, Wayne Wang, Yixuan Wen, Harry Zhan
 
-In the project directory, you can run:
+### Problem Statement
+How can overseas Chinese citizens access the most updated travel information and quarantine policies so that they can plan their return trip easily, practically, and accordingly on an interactive platform?
 
-### `yarn start`
+### Problem Context
+As a result of the COVID-19 pandemic, many countries and territories have imposed travel restrictions for citizens and non-citizens. China is one of them. Numerous rules on flights, country of departure, reason of entry, etc. are imposed by the Chinese authority in order to slow the spread of the virus. In most cases, overseas Chinese citizens must follow all rules if they want to return their home country without hassle.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Approximately 11 million people with Chinese citizenship residing abroad, according to World Migration Report 2020. Many overseas Chinese are eager to return to their home country due to a variety of reasons, including the rampant spread and inadequate control outside mainland China.  
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Rules that Chinese government has imposed are rigid and comprehensive, considering the pandemic has been largely and effectively controlled within the Chinese border. Land borders are generally closed, and international flights are heavily restricted and overseen by Civil Aviation Administration of China (CAAC). The majority of inbound flights is cancelled under the “Five One” policy, which only allows mainland Chinese carriers to fly just one flight a week on one route to any country and foreign airlines to operate just one flight a week to mainland China. Ticket is extremely difficult to purchased in light of the shrinkage of flights, and the price reaches an extreme level.  
 
-### `yarn test`
+Booking the flight is the first step for the return trip; many other procedures have to be followed. Before boarding the flight, nucleic acid and antibody tests of COVID-19 are required at a specified testing institution based on the consular district. They must be conducted within 48 hours before boarding. A health code rendered by the Chinese embassy is also required for boarding. After landing, there is another compulsory quarantine in hotel, and the policy of the quarantine is varied by provinces and municipalities.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The rules of return can be changed and adjusted at anytime by the Chinese authority without notice in advance. People are exasperated, since it is very frustrated to make an updated return plan that actually works.  
 
-### `yarn build`
+### Research Insight
+As a result of the COVID-19 pandemic, many countries and territories have imposed travel restrictions for citizens and non-citizens. China is one of them. Numerous rules on flights, country of departure, reason of entry, etc. are imposed by the Chinese authority in order to slow the spread of the virus. In most cases, overseas Chinese citizens must follow all rules if they want to return their home country without hassle.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Approximately 11 million people with Chinese citizenship residing abroad, according to World Migration Report 2020. Many overseas Chinese are eager to return to their home country due to a variety of reasons, including the rampant spread and inadequate control outside mainland China.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Rules that Chinese government has imposed are rigid and comprehensive, considering the pandemic has been largely and effectively controlled within the Chinese border. Land borders are generally closed, and international flights are heavily restricted and overseen by Civil Aviation Administration of China (CAAC). The majority of inbound flights is cancelled under the “Five One” policy, which only allows mainland Chinese carriers to fly just one flight a week on one route to any country and foreign airlines to operate just one flight a week to mainland China. Ticket is extremely difficult to purchased in light of the shrinkage of flights, and the price reaches an extreme level.  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Booking the flight is the first step for the return trip; many other procedures have to be followed. Before boarding the flight, nucleic acid and antibody tests of COVID-19 are required at a specified testing institution based on the consular district. They must be conducted within 48 hours before boarding. A health code rendered by the Chinese embassy is also required for boarding. After landing, there is another compulsory quarantine in hotel, and the policy of the quarantine is varied by provinces and municipalities.  
 
-### `yarn eject`
+The rules of return can be changed and adjusted at anytime by the Chinese authority without notice in advance. People are exasperated, since it is very frustrated to make an updated return plan that actually works.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Solution & Main Features
+* Home Page: Allow users to enter their departure location, destination and estimated date for departure OR a ticket number to initialize the Timeline generation.
+* TimeLine: Based on users' travel plan or flight information to generate a estimated timeline for multiple stages during the travel -- Preparation stage, COVID testing and documenting stage, flight stage and quarantine stage.
+* To-Do List: A checklist version of TimeLine page, esay to manage and keep track of progress. Mobile friendly.
+* Quarantine Policy Page: Provide regularly updated quarantine policies for entering China as well as quarantine polices for the final destination.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Development Instruction
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Environment
+* This project is a React-based project.
+* `npm install`: Install dependencies required to run this project.
+* `npm start`: Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Components
+All components can be found in the directory `src/pages`
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Images & Resources
+All images and resources can be found in directory `src/res`
