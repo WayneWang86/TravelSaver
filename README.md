@@ -1,6 +1,6 @@
 # TravelSaver
-A web application to assist overseas Chinese citizens travel back to China during the pandemic.
-Landing Page: https://travelsaver.webflow.io
+A web application to assist overseas Chinese citizens travel back to China during the pandemic.  
+[Landing Page](https://travelsaver.webflow.io)
 
 ## Project Summary
 
